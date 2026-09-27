@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Agent — материалы клиента</title>
+<meta name="description" content="Что вы получили, что будет дальше, как принять работу и куда писать в поддержку.">
+<style>
+  :root{
+    --bg:#f7f7f5; --card:#ffffff; --ink:#1a1a1a; --muted:#5c5c5c;
+    --line:#e6e6e2; --accent:#2f6f4f; --accent-ink:#ffffff; --warn:#8a5a00;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#141513; --card:#1d1f1c; --ink:#ececea; --muted:#a6a6a0;
+      --line:#2c2f2b; --accent:#7fc9a1; --accent-ink:#0f130f; --warn:#e0b24a;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:32px 20px 64px}
+  header{padding:8px 0 24px; border-bottom:1px solid var(--line); margin-bottom:8px}
+  .brand{display:inline-block; font-weight:700; letter-spacing:.2px; font-size:14px;
+    color:var(--accent-ink); background:var(--accent); padding:4px 10px; border-radius:6px}
+  h1{font-size:28px; line-height:1.25; margin:18px 0 6px; font-weight:700}
+  .lede{color:var(--muted); margin:0; font-size:17px}
+  section{background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:18px 20px; margin:16px 0}
+  h2{font-size:18px; margin:0 0 8px; font-weight:650}
+  h2 .n{color:var(--accent); font-variant-numeric:tabular-nums; margin-right:8px}
+  p{margin:8px 0}
+  ul{margin:8px 0; padding-left:20px}
+  li{margin:4px 0}
+  .note{border-left:3px solid var(--warn); padding-left:12px; color:var(--muted)}
+  strong{font-weight:650}
+  footer{color:var(--muted); font-size:13px; margin-top:28px; text-align:center}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="brand">Your Agent</span>
+    <h1>Материалы клиента</h1>
+    <p class="lede">Что вы получили, что будет дальше и куда писать. Управление и поддержка — в том же Telegram-боте, через который вы открыли эту страницу.</p>
+  </header>
+
+  <section>
+    <h2><span class="n">1</span>Что вы получили</h2>
+    <p>Персональный агент, который помогает создавать контент. Доступ активен 30 дней с момента выдачи. Пока доступ действует, в боте открыты установка, эти материалы и поддержка.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">2</span>Что будет дальше</h2>
+    <p>Сначала согласуем задачу: какой контент нужен, где будет работать ваш бот, какая модель и бюджет. Установку на отдельный сервер выполняет оператор. Когда всё готово, вы получите ссылку на своего рабочего бота прямо в переписке.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">3</span>Что нужно от вас</h2>
+    <p>Опишите задачу и подтвердите, кому принадлежит рабочий бот. После установки проверьте результат со своего аккаунта. Отвечайте на уточнения оператора обычными сообщениями в боте.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">4</span>Как принять работу</h2>
+    <p>Придёт ссылка на вашего бота и кнопка «Проверил, работает». Нажимайте её только после того, как сами убедились: агент отвечает, помнит рабочий файл после перезапуска, посторонний аккаунт доступа не получает.</p>
+    <p class="note">Оплата и «зелёный» статус сервера приёмку не заменяют. Пока задача не решена, продолжаем настройку и поддержку.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">5</span>Поддержка</h2>
+    <p>Пишите обычным сообщением в тот же бот. Вся переписка хранится в одной истории с вашей карточкой, оператор отвечает там же. Можно дописать уточнение отдельным сообщением, ничего не потеряется после перезапуска.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">6</span>Безопасность</h2>
+    <p>Никогда не присылайте в чат API-ключи, пароли и токены. Оператор о них не просит. Ключ модели вводится в защищённой настройке на сервере, а не в переписке или почте.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">7</span>Доступ и возврат</h2>
+    <p>Доступ действует 30 дней. Возврат оплаты отзывает доступ по этой покупке; переписка и заявка при этом остаются, сервер сам не удаляется. Продление — это отдельная покупка или новое право от владельца сервиса.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">8</span>Сервер и модель</h2>
+    <p>Виртуальный сервер и модель оплачиваются отдельно по согласованию и в этот доступ не входят. Итоговую стоимость подтверждаете до создания сервера. Остановка сервера не всегда прекращает начисления — уточняйте у оператора.</p>
+  </section>
+
+  <footer>© 2026 Your Agent. Материалы для клиентов сервиса.</footer>
+</div>
+</body>
+</html>
